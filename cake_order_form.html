@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Cake Order Form</title>
+</head>
+
+<body>
+  <h1>Cake Order Form</h1>
+  <h3>Use this form to fill out to place your order for a special order cake with Bales & Lamb's MarketPlace Stores.</h3>
+
+  <table>
+
+
+
+    <form cellspacing="10">
+      <td>
+        <label for="CustomerName">Customer Name</label>
+      </td>
+      <td>
+        <input type="text"><br>
+      </td>
+      <td>
+        <label for="Phone">Phone Number</label>
+      </td>
+      <td>
+        <input type="text" /><br>
+      </td>
+      <td>
+        <label for="DatePickUp">Select Pick Up Date</label>
+      </td>
+      <td>
+        <input type="date" value="2019-6-29" min="2019-7-1" max="2020-31-1">
+      </td>
+    </form>
+  </table>
+  <p>Please Select Your Cake Options.</p>
+<form class="" action="index.html" method="post">
+
+
+  <td>
+    <label for="Cake-flavor">Choose a Cake flavor</label>
+    <input list="cake-flavors" id="cake-choice" name="cake-choice" />
+    <datalist id="cake-flavors">
+      <option value="White"></option>
+      <option value="Chocolate"></option>
+      <option value="Almond-Poppyseed"></option>
+      <option value="Banana"></option>
+      <option value="Carrot"></option>
+      <option value="Chocolate-Chip"></option>
+      <option value="Pink-Champagne"></option>
+      <option value="Red-Velvet"></option>
+    </datalist>
+  </td>
+  <td>
+    <label for="fillings">Choose a filling</label>
+    <input list="cake-fillings" id="filling-choice" name="filling-choice" />
+    <datalist id="cake-fillings">
+      <option value="Strawberry"></option>
+      <option value="Raspberry"></option>
+      <option value="Lemon"></option>
+      <option value="Marionberry"></option>
+      <option value="Fudge"></option>
+      <option value="Custard"></option>
+      <option value="Cream-Cheese"></option>
+      <option value="Pink-Champagne"></option>
+      <option value="White-Buttercream"></option>
+      <option value="Chocolate-Buttercream"></option>
+      <option value="Mousse"></option>
+    </datalist>
+  </td>
+  <td>
+    <label for="icings">Choose an icing</label>
+    <input list="cake-icings" id="icing-choice" name="icing-choice" />
+    <datalist id="cake-icings">
+      <option value="White-Buttercream"></option>
+      <option value="Chocolate-Buttercream"></option>
+      <option value="Cream-Cheese"></option>
+      <option value="Fondant-(additional charge)"></option>
+    </datalist>
+  </td>
+  <p></p>
+  <p>
+    <td>
+      <label for="decorations">Select your decoration style</label>
+      <input list="cake-decorations" id="deco-choice" name="deco-choice" />
+      <datalist id="cake-decorations">
+        <option value="party theme"></option>
+        <option value="flower theme"></option>
+        <option value="birthday theme"></option>
+      </datalist>
+    </td>
+  </p>
+<p>
+  <label for="fileupload">Select and image to upload: </label>
+  <input type="file" name="fileupload" value="fileupload" id="fileupload" />
+</p>
+<p>
+  <input type="submit"/>
+</p>
+</form>
+</body>
+
+</html>
